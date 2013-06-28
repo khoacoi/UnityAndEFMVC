@@ -1,0 +1,4 @@
+D:\Working\MyWeb\GitHub\UnityAndEFMVC\SourceCode\Application\Application.DTO\bin\Debug\Application.DTO.dll
+D:\Working\MyWeb\GitHub\UnityAndEFMVC\SourceCode\Application\Application.DTO\bin\Debug\Application.DTO.pdb
+D:\Working\MyWeb\GitHub\UnityAndEFMVC\SourceCode\Application\Application.DTO\obj\Debug\Application.DTO.dll
+D:\Working\MyWeb\GitHub\UnityAndEFMVC\SourceCode\Application\Application.DTO\obj\Debug\Application.DTO.pdb
