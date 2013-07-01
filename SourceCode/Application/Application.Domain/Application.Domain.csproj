@@ -94,7 +94,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Application.Common\Application.Common.csproj">
-      <Project>{675c4e4d-10ff-4b18-98e3-5e2e06d6fcc0}</Project>
+      <Project>{b6ce62bc-9e1d-4b1e-8b97-bf2c0f80ed84}</Project>
       <Name>Application.Common</Name>
     </ProjectReference>
   </ItemGroup>

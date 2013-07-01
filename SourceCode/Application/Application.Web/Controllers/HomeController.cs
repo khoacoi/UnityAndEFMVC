@@ -15,7 +15,9 @@ namespace Application.Web.Controllers
         //    _contactManager = contactManager;
         //}
 
+        [Microsoft.Practices.Unity.Dependency]
         public IContactManager ContactManager { get; set; }
+
         public ActionResult Index()
         {
             ContactManager.FindProfiles(0, 10);
