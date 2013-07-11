@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Repository", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Web", "Application.Web\Application.Web.csproj", "{0B097DED-F361-4C92-BBFA-4695133C0018}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application.Web.Modules", "Application.Web.Modules", "{3871855E-DB65-4EC7-8038-F8E8209F0B7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Web.Module.Person", "Application.Web.Module.Person\Application.Web.Module.Person.csproj", "{D00CABB1-E94D-4486-AD98-40E2176D938B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,12 +67,17 @@ Global
 		{0B097DED-F361-4C92-BBFA-4695133C0018}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B097DED-F361-4C92-BBFA-4695133C0018}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B097DED-F361-4C92-BBFA-4695133C0018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D00CABB1-E94D-4486-AD98-40E2176D938B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00CABB1-E94D-4486-AD98-40E2176D938B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00CABB1-E94D-4486-AD98-40E2176D938B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00CABB1-E94D-4486-AD98-40E2176D938B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CD974BB9-5DB7-4F5C-AD7D-04CDCFA2FDA4} = {EFA1C0C6-C603-42B3-BB49-73C399D0D2BE}
+		{D00CABB1-E94D-4486-AD98-40E2176D938B} = {3871855E-DB65-4EC7-8038-F8E8209F0B7C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35

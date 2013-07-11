@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PersonModule\PersonDTO.cs" />
     <Compile Include="ProfileModule\AddressDTO.cs" />
     <Compile Include="ProfileModule\AddressTypeDTO.cs" />
     <Compile Include="ProfileModule\ContactForm.cs" />

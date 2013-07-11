@@ -18,8 +18,7 @@ namespace Application.DAL
     {
         #region Constructor
 
-        public UnitOfWork()
-            : base("name=Application.DAL.UnitOfWork")
+        public UnitOfWork(): base("name=Application.DAL.UnitOfWork")
         {
             this.Configuration.ProxyCreationEnabled = true;
             this.Configuration.LazyLoadingEnabled = true;
