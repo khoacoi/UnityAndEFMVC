@@ -1,4 +1,5 @@
 ﻿using Application.Manager.Contract;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,8 +22,16 @@ namespace Application.Web.Module.Person.Controllers.Person
         public ActionResult Index()
         {
             var list = _contactManager.FindProfiles(0, 10);
-            return View();
+            var personTest = new ABC() { Name = "employee", Age = 23 };
+            
+            return View(personTest);
         }
 
+    }
+
+    public class ABC
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
     }
 }

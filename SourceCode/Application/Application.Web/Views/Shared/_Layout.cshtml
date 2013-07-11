@@ -8,6 +8,7 @@
         
         @Html.Partial("Partials/_CssPartial")
         @Scripts.Render("~/bundles/modernizr")
+        @Html.Partial("Partials/_ScriptsPartial")
     </head>
     <body>
         <header>
@@ -35,16 +36,10 @@
                 @RenderBody()
             </section>
         </div>
-        <footer>
-            <div class="content-wrapper">
-                <div class="float-left">
-                    <p>&copy; @DateTime.Now.Year - My ASP.NET MVC Application</p>
-                </div>
-            </div>
-        </footer>
 
         @Html.Partial("Partials/_FooterPartial")
-        @Html.Partial("Partials/_ScriptsPartial")
+
+        @*@Html.Partial("Partials/_ScriptsPartial")*@
         @RenderSection("scripts", required: false)
     </body>
 </html>
