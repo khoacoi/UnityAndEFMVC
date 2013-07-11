@@ -1,4 +1,4 @@
 UnityAndEFMVC
 =============
 
-Unity, Entiy Framework, .NET MVC application
+Unity, Entiy Framework, .NET MVC application, AngularJS
