@@ -417,6 +417,7 @@ namespace Application.Manager.Implementation
         public void DeleteProfileAddress(ProfileAddress profileAddress)
         {
             var address = _addressRepository.Get(profileAddress.AddressId);
+            //var address = profileAddress;
 
             if (address != null) //if address exist
             {

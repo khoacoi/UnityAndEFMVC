@@ -1,5 +1,5 @@
 ﻿function PersonViewModel(options) {
-    var item = options;
+    var viewModel = options.viewModel;
     var app = angular.module('app', []);
 
     var url = 'api/person/';
@@ -12,8 +12,11 @@
             addPerson: function (person) {
                 return $http.post(url, person);
             },
+            //deletePerson: function (person) {
+            //    return $http.delete(url + person.Id);
+            //},
             deletePerson: function (person) {
-                return $http.delete(url + person.Id);
+                return $http.post('person/DeletePerson', person);
             },
             updatePerson: function (person) {
                 return $http.put(url + person.Id, person);
@@ -35,7 +38,7 @@
 
     app.controller('PersonIndexCtrl', function ($scope, personFactory, notificationFactory) {
         $scope.Name = 'Name';
-        $scope.people = [];
+        $scope.people = viewModel;
         $scope.addMode = false;
 
         $scope.toggleAddMode = function () {
@@ -75,7 +78,10 @@
         };
 
         $scope.deletePerson = function (person) {
-            personFactory.deletePerson(person).success(successCallback).error(errorCallback);
+            //personFactory.deletePerson(person).success(successCallback).error(errorCallback);
+            $scope.people.splice($scope.people.indexOf(person), 1);
+            //Call factory to submit to the server to delete.
+            personFactory.deletePerson(person).error(errorCallback);
         };
 
         $scope.updatePerson = function (person) {

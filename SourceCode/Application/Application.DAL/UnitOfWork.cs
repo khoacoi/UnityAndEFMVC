@@ -26,93 +26,93 @@ namespace Application.DAL
 
         #endregion Constructor
 
-        #region IDbSet Members
+        //#region IDbSet Members
 
-        IDbSet<Address> _address;
-        public IDbSet<Address> Address
-        {
-            get
-            {
-                if (_address == null)
-                    _address = base.Set<Address>();
+        //IDbSet<Address> _address;
+        //public IDbSet<Address> Address
+        //{
+        //    get
+        //    {
+        //        if (_address == null)
+        //            _address = base.Set<Address>();
 
-                return _address;
-            }
-        }
+        //        return _address;
+        //    }
+        //}
 
-        IDbSet<AddressType> _addressType;
-        public IDbSet<AddressType> AddressType
-        {
-            get
-            {
-                if (_addressType == null)
-                    _addressType = base.Set<AddressType>();
+        //IDbSet<AddressType> _addressType;
+        //public IDbSet<AddressType> AddressType
+        //{
+        //    get
+        //    {
+        //        if (_addressType == null)
+        //            _addressType = base.Set<AddressType>();
 
-                return _addressType;
-            }
-        }
+        //        return _addressType;
+        //    }
+        //}
 
-        IDbSet<Phone> _phone;
-        public IDbSet<Phone> Countries
-        {
-            get
-            {
-                if (_phone == null)
-                    _phone = base.Set<Phone>();
+        //IDbSet<Phone> _phone;
+        //public IDbSet<Phone> Countries
+        //{
+        //    get
+        //    {
+        //        if (_phone == null)
+        //            _phone = base.Set<Phone>();
 
-                return _phone;
-            }
-        }
+        //        return _phone;
+        //    }
+        //}
 
-        IDbSet<PhoneType> _phoneType;
-        public IDbSet<PhoneType> PhoneType
-        {
-            get
-            {
-                if (_phoneType == null)
-                    _phoneType = base.Set<PhoneType>();
+        //IDbSet<PhoneType> _phoneType;
+        //public IDbSet<PhoneType> PhoneType
+        //{
+        //    get
+        //    {
+        //        if (_phoneType == null)
+        //            _phoneType = base.Set<PhoneType>();
 
-                return _phoneType;
-            }
-        }
+        //        return _phoneType;
+        //    }
+        //}
 
-        IDbSet<ProfileAddress> _profileAddress;
-        public IDbSet<ProfileAddress> ProfileAddress
-        {
-            get
-            {
-                if (_profileAddress == null)
-                    _profileAddress = base.Set<ProfileAddress>();
+        //IDbSet<ProfileAddress> _profileAddress;
+        //public IDbSet<ProfileAddress> ProfileAddress
+        //{
+        //    get
+        //    {
+        //        if (_profileAddress == null)
+        //            _profileAddress = base.Set<ProfileAddress>();
 
-                return _profileAddress;
-            }
-        }
+        //        return _profileAddress;
+        //    }
+        //}
 
-        IDbSet<Profile> _profile;
-        public IDbSet<Profile> Profile
-        {
-            get
-            {
-                if (_profile == null)
-                    _profile = base.Set<Profile>();
+        //IDbSet<Profile> _profile;
+        //public IDbSet<Profile> Profile
+        //{
+        //    get
+        //    {
+        //        if (_profile == null)
+        //            _profile = base.Set<Profile>();
 
-                return _profile;
-            }
-        }
+        //        return _profile;
+        //    }
+        //}
 
-        IDbSet<ProfilePhone> _profilePhone;
-        public IDbSet<ProfilePhone> ProfilePhone
-        {
-            get
-            {
-                if (_profilePhone == null)
-                    _profilePhone = base.Set<ProfilePhone>();
+        //IDbSet<ProfilePhone> _profilePhone;
+        //public IDbSet<ProfilePhone> ProfilePhone
+        //{
+        //    get
+        //    {
+        //        if (_profilePhone == null)
+        //            _profilePhone = base.Set<ProfilePhone>();
 
-                return _profilePhone;
-            }
-        }
+        //        return _profilePhone;
+        //    }
+        //}
 
-        #endregion
+        //#endregion
 
         #region IQueryableUnitOfWork Members
 

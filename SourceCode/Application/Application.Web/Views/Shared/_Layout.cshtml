@@ -8,7 +8,6 @@
         
         @Html.Partial("Partials/_CssPartial")
         @Scripts.Render("~/bundles/modernizr")
-        @Html.Partial("Partials/_ScriptsPartial")
     </head>
     <body>
         <header>
@@ -39,7 +38,7 @@
 
         @Html.Partial("Partials/_FooterPartial")
 
-        @*@Html.Partial("Partials/_ScriptsPartial")*@
+        @Html.Partial("Partials/_ScriptsPartial")
         @RenderSection("scripts", required: false)
     </body>
 </html>

@@ -3,6 +3,8 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Web;
 using System.Web.Mvc;
 
@@ -22,16 +24,15 @@ namespace Application.Web.Module.Person.Controllers.Person
         public ActionResult Index()
         {
             var list = _contactManager.FindProfiles(0, 10);
-            var personTest = new ABC() { Name = "employee", Age = 23 };
+            //var personTest = new ABC() { Name = "employee", Age = 23 };
             
-            return View(personTest);
+            return View(list);
         }
 
-    }
-
-    public class ABC
-    {
-        public string Name { get; set; }
-        public int Age { get; set; }
+        public ActionResult DeletePerson(Application.DTO.ProfileModule.ProfileDTO profile)
+        {
+            _contactManager.DeleteProfile(profile.ProfileId);
+            return Json(new {IsSuccess = true });
+        }
     }
 }

@@ -1,4 +1,4 @@
-﻿@model Application.Web.Module.Person.Controllers.Person.ABC
+﻿@model IEnumerable<Application.DTO.ProfileModule.ProfileDTO>
 
 @{
     ViewBag.Title = "Index";
@@ -17,11 +17,45 @@
         <div style="width: 500px;">
             <table>
                 <tr>
-                    <th style="width: 100px;">
-                    </th>
-                    <th style="width: 50px;">Id</th>
-                    <th>{{Name}}</th>
+                    <th>Actions</th>
+                    <th>PersonID</th>
+                    <th style="width: 100px;">FirstName</th>
+                    <th style="width: 100px;">LastName</th>
+                    @*<th style="width: 100px">{{Name}}</th>*@
+                    <th>FullName</th>
                 </tr>
+
+                <tr ng-repeat="person in people | orderBy:'PersonID':false">
+                    <td> 
+                        <button ng-click="deletePerson(person)">Delete</button>
+                    </td>
+                    <td>{{person.ProfileId}}</td>
+                    <td>
+                        {{person.FirstName}}
+                        @*<div class="btn-toolbar" ng-show="person.editMode == null || person.editMode == false">
+                            <div class="btn-group">
+                                <i class="btn icon-edit" ng-click="toggleEditMode(person)"></i>
+                                <i class="btn icon-trash" ng-click="deletePerson(person)"></i>
+                            </div>
+                        </div>
+                        <div class="btn-toolbar" ng-show="person.editMode == true">
+                            <div class="btn-group">
+                                <i class="btn icon-save" ng-click="updatePerson(person)"></i>
+                                <i class="btn icon-remove" ng-click="toggleEditMode(person)"></i>
+                            </div>
+                        </div>*@
+                    </td>
+                    <td>
+                        {{person.LastName}}
+                    </td>
+                    <td>{{person.FirstName}} {{person.LastName}}</td>
+                    @*<td>{{person.Id}}</td>*@
+                    @*<td>
+                        <span ng-show="person.editMode == null || person.editMode == false">{{person.Name}}</span>
+                        <input ng-model="person.Name" ng-show="person.editMode == true" />
+                    </td>*@
+                </tr>
+
             </table>
         </div>
     </div>
@@ -77,7 +111,9 @@
 @section scripts{
     <script src="@Url.Content("~/Scripts/Modules/ViewModels/Person.js")" type="text/javascript"></script>
     <script type="text/javascript">
-        var options = eval(@Html.Raw(data));
+        var options = {
+            viewModel: eval(@Html.Raw(data))
+        };
         PersonViewModel(options);
     </script>
 
