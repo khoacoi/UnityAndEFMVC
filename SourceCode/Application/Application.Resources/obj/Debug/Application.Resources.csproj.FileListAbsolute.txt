@@ -13,3 +13,11 @@ D:\Working\MyWeb\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resourc
 D:\Working\MyWeb\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.csproj.GenerateResource.Cache
 D:\Working\MyWeb\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.dll
 D:\Working\MyWeb\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.pdb
+D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\bin\Debug\Application.Resources.dll
+D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\bin\Debug\Application.Resources.pdb
+D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.ApplicationErrors.resources
+D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.ApplicationText.resources
+D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.csproj.GenerateResource.Cache
+D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.dll
+D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.pdb
+D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.csprojResolveAssemblyReference.cache

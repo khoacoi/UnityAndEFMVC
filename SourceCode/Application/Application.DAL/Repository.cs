@@ -86,7 +86,6 @@ namespace Application.DAL
             {
                 LoggerFactory.CreateLog()
                             .LogInfo(LocalizerFactory.CreateLocalizer().GetString("info_CannotRemoveNullEntity", typeof(Application.Resources.ApplicationErrors)), typeof(T).ToString());
-                          //.LogInfo(Message.info_CannotRemoveNullEntity, typeof(T).ToString());
             }
         }
 

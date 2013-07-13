@@ -45,7 +45,7 @@ namespace Application.DependencyResolver
 
         public static void RegisterTypes(IUnityContainer container)
         {
-            container.RegisterType<IQueryableUnitOfWork, UnitOfWork>();
+            container.RegisterType<IQueryableUnitOfWork, UnitOfWork>((new PerThreadLifetimeManager()));
             container.RegisterType<IProfileRepository, ProfileRepository>();
             container.RegisterType<IAddressRepository, AddressRepository>();
             container.RegisterType<IAddressTypeRepository, AddressTypeRepository>();

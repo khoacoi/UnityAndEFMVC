@@ -31,3 +31,12 @@ D:\Working\MyWeb\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Domain\
 D:\Working\MyWeb\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Domain\obj\Debug\Application.Domain.csproj.GenerateResource.Cache
 D:\Working\MyWeb\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Domain\obj\Debug\Application.Domain.dll
 D:\Working\MyWeb\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Domain\obj\Debug\Application.Domain.pdb
+D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Domain\bin\Debug\Application.Domain.dll
+D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Domain\bin\Debug\Application.Domain.pdb
+D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Domain\bin\Debug\Application.Common.dll
+D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Domain\bin\Debug\Application.Common.pdb
+D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Domain\obj\Debug\Application.Domain.csprojResolveAssemblyReference.cache
+D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Domain\obj\Debug\Application.Domain.Resources.Messages.resources
+D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Domain\obj\Debug\Application.Domain.csproj.GenerateResource.Cache
+D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Domain\obj\Debug\Application.Domain.dll
+D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Domain\obj\Debug\Application.Domain.pdb
