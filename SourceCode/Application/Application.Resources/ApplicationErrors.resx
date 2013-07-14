@@ -123,6 +123,9 @@
   <data name="warning_CannotRemoveNonExistingAddress" xml:space="preserve">
     <value>Can not delete non existing Address</value>
   </data>
+  <data name="warning_CannotRemoveNonExistingCategory" xml:space="preserve">
+    <value>Can not delete non existing Category</value>
+  </data>
   <data name="warning_CannotRemoveNonExistingPhone" xml:space="preserve">
     <value>Can not delete non existing Phone</value>
   </data>

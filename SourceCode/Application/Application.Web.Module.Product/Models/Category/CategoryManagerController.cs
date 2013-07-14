@@ -37,24 +37,35 @@ namespace Application.Web.Module.Product.Models.Category
         //}
 
         // GET api/categorymanagerment/5
-        public string Get(int id)
+        public CategoryDTO GetCategory(int id)
         {
-            return "value";
+            return new CategoryDTO();
         }
 
         // POST api/categorymanagerment
-        public void Post([FromBody]string value)
+        public HttpResponseMessage Post(CategoryDTO category)
         {
+            return Request.CreateErrorResponse(HttpStatusCode.NotAcceptable, "Haven't been implemented yet");
         }
 
         // PUT api/categorymanagerment/5
-        public void Put(int id, [FromBody]string value)
+        public HttpResponseMessage Put(int id, CategoryDTO category)
         {
+            return Request.CreateErrorResponse(HttpStatusCode.NotAcceptable, "Haven't been implemented yet");
         }
 
         // DELETE api/categorymanagerment/5
-        public void Delete(int id)
+        public HttpResponseMessage Delete(int id)
         {
+            try
+            {
+                _categoryManager.DeleteCategory(id);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.NotAcceptable, ex);
+            }
+            return Request.CreateResponse(HttpStatusCode.OK);
         }
     }
 }

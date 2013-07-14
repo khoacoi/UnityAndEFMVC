@@ -1,7 +1,9 @@
 ﻿using Application.Common.Localization;
+using Application.Common.Logging;
 using Application.Domain.Product.CategoryAggregate;
 using Application.DTO.ProductModule;
 using Application.Manager.Contract.ProductModule;
+using Application.Resources;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,7 +51,14 @@ namespace Application.Manager.Implementation.ProductModule
 
         public void DeleteCategory(int id)
         {
-            throw new NotImplementedException();
+            var category = _categoryRepository.Get(id);
+            if (category == null)
+            {
+                LoggerFactory.CreateLog().LogWarning(LocalizerFactory.CreateLocalizer().GetString("warning_CannotRemoveNonExistingCategory", typeof(ApplicationErrors)));
+            }
+
+            _categoryRepository.Remove(category);
+            _categoryRepository.UnitOfWork.Commit();
         }
         #endregion
     }

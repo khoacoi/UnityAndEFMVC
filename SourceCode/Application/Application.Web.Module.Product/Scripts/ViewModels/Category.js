@@ -34,7 +34,9 @@ app.controller('ManageCategoryCtrl', function ($scope, categoryFactory, notifica
     $scope.categories = [];
 
     $scope.deleteCategory = function (category) {
-        categoryFactory.deleteCategory(category);
+        categoryFactory.deleteCategory(category).success(function (category, status, header, config) {
+            alert('deleted')
+        });
     };
 
     var getCategoriesSuccessCallBack = function (data, status, headers, config) {

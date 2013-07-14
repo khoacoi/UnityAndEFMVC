@@ -198,6 +198,10 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Application.Common\Application.Common.csproj">
+      <Project>{b6ce62bc-9e1d-4b1e-8b97-bf2c0f80ed84}</Project>
+      <Name>Application.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Application.DTO\Application.DTO.csproj">
       <Project>{639c7772-7694-4018-a161-42140ca3340b}</Project>
       <Name>Application.DTO</Name>

@@ -7,16 +7,20 @@
     <div style="width: 500px;">
         <table>
             <tr>
-                <th>ID</th>
+                <th>@Application.Common.Localization.LocalizerFactory.CreateLocalizer().GetString("ID", typeof(Application.Resources.ApplicationText))</th>
                 <th>Code</th>
                 <th>Name</th>
                 <th>Order</th>
+                <th>Action</th>
             </tr>
             <tr ng-repeat="category in categories | orderBy: 'Order': false">
                 <td>{{category.CategoryID}}</td>
                 <td>{{category.CategoryCode}}</td>
                 <td>{{category.CategoryName}}</td>
                 <td>{{category.Order}}</td>
+                <td>
+                    <button ng-click="deleteCategory(category)">Delete</button>
+                </td>
             </tr>
         </table>
     </div>

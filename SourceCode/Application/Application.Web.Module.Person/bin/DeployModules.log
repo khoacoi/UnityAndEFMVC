@@ -20761,3 +20761,1033 @@ Exc Files : json2.js
    Times :   0:00:00   0:00:00                       0:00:00   0:00:00
    Ended : Sunday, July 14, 2013 4:44:47 PM
 
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 4:59:21 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\bin\
+
+    Files : Application.Web.Module.Person.dll
+	    
+  Options : /TEE /DCOPY:DA /COPY:DAT /XO /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+	    Newer     		    6144	Application.Web.Module.Person.dll  0%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         0         0         0         0
+   Files :         1         1         0         0         0         0
+   Bytes :     6.0 k     6.0 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :              149853 Bytes/sec.
+   Speed :               8.574 MegaBytes/min.
+   Ended : Sunday, July 14, 2013 4:59:21 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 4:59:21 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\
+
+    Files : *.cshtml
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Account\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Category\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Home\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Shared\
+	  *EXTRA File 		      55	_ViewStart.cshtml
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\Person\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         4
+   Files :         1         0         1         0         0         1
+   Bytes :     5.4 k         0     5.4 k         0         0        55
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 4:59:22 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 4:59:22 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Scripts\Modules\
+
+    Files : *.js
+	    
+Exc Files : json2.js
+	    json2.min.js
+	    r.js
+	    require.js
+	    _references.js
+	    jquery*.js
+	    knockout*.js
+	    modernizr*.js
+	    ko*.js
+	    infuser*.js
+	    TrafficCop*.js
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  16	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\ViewModels\
+	  *EXTRA File 		    1459	Category.js
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         0
+   Files :        17         0        17         0         0         1
+   Bytes :    1.51 m         0    1.51 m         0         0     1.4 k
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 4:59:22 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 5:04:59 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\bin\
+
+    Files : Application.Web.Module.Person.dll
+	    
+  Options : /TEE /DCOPY:DA /COPY:DAT /XO /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+	    Newer     		    6144	Application.Web.Module.Person.dll  0%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         0         0         0         0
+   Files :         1         1         0         0         0         0
+   Bytes :     6.0 k     6.0 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :             1228800 Bytes/sec.
+   Speed :              70.312 MegaBytes/min.
+   Ended : Sunday, July 14, 2013 5:04:59 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 5:04:59 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\
+
+    Files : *.cshtml
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Account\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Category\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Home\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Shared\
+	  *EXTRA File 		      55	_ViewStart.cshtml
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\Person\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         4
+   Files :         1         0         1         0         0         1
+   Bytes :     5.4 k         0     5.4 k         0         0        55
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 5:04:59 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 5:04:59 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Scripts\Modules\
+
+    Files : *.js
+	    
+Exc Files : json2.js
+	    json2.min.js
+	    r.js
+	    require.js
+	    _references.js
+	    jquery*.js
+	    knockout*.js
+	    modernizr*.js
+	    ko*.js
+	    infuser*.js
+	    TrafficCop*.js
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  16	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\ViewModels\
+	  *EXTRA File 		    1459	Category.js
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         0
+   Files :        17         0        17         0         0         1
+   Bytes :    1.51 m         0    1.51 m         0         0     1.4 k
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 5:04:59 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 5:11:43 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\bin\
+
+    Files : Application.Web.Module.Person.dll
+	    
+  Options : /TEE /DCOPY:DA /COPY:DAT /XO /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+	    Newer     		    6144	Application.Web.Module.Person.dll  0%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         0         0         0         0
+   Files :         1         1         0         0         0         0
+   Bytes :     6.0 k     6.0 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :              682666 Bytes/sec.
+   Speed :              39.062 MegaBytes/min.
+   Ended : Sunday, July 14, 2013 5:11:44 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 5:11:44 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\
+
+    Files : *.cshtml
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Account\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Category\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Home\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Shared\
+	  *EXTRA File 		      55	_ViewStart.cshtml
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\Person\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         4
+   Files :         1         0         1         0         0         1
+   Bytes :     5.4 k         0     5.4 k         0         0        55
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 5:11:44 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 5:11:44 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Scripts\Modules\
+
+    Files : *.js
+	    
+Exc Files : json2.js
+	    json2.min.js
+	    r.js
+	    require.js
+	    _references.js
+	    jquery*.js
+	    knockout*.js
+	    modernizr*.js
+	    ko*.js
+	    infuser*.js
+	    TrafficCop*.js
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  16	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\ViewModels\
+	  *EXTRA File 		    1459	Category.js
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         0
+   Files :        17         0        17         0         0         1
+   Bytes :    1.51 m         0    1.51 m         0         0     1.4 k
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 5:11:44 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 5:58:48 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\bin\
+
+    Files : Application.Web.Module.Person.dll
+	    
+  Options : /TEE /DCOPY:DA /COPY:DAT /XO /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+	    Newer     		    6144	Application.Web.Module.Person.dll  0%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         0         0         0         0
+   Files :         1         1         0         0         0         0
+   Bytes :     6.0 k     6.0 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :             1228800 Bytes/sec.
+   Speed :              70.312 MegaBytes/min.
+   Ended : Sunday, July 14, 2013 5:58:48 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 5:58:48 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\
+
+    Files : *.cshtml
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Account\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Category\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Home\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Shared\
+	  *EXTRA File 		      55	_ViewStart.cshtml
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\Person\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         4
+   Files :         1         0         1         0         0         1
+   Bytes :     5.4 k         0     5.4 k         0         0        55
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 5:58:48 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 5:58:48 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Scripts\Modules\
+
+    Files : *.js
+	    
+Exc Files : json2.js
+	    json2.min.js
+	    r.js
+	    require.js
+	    _references.js
+	    jquery*.js
+	    knockout*.js
+	    modernizr*.js
+	    ko*.js
+	    infuser*.js
+	    TrafficCop*.js
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  16	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\ViewModels\
+	  *EXTRA File 		    1459	Category.js
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         0
+   Files :        17         0        17         0         0         1
+   Bytes :    1.51 m         0    1.51 m         0         0     1.4 k
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 5:58:48 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 6:04:40 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\bin\
+
+    Files : Application.Web.Module.Person.dll
+	    
+  Options : /TEE /DCOPY:DA /COPY:DAT /XO /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+	    Newer     		    6144	Application.Web.Module.Person.dll  0%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         0         0         0         0
+   Files :         1         1         0         0         0         0
+   Bytes :     6.0 k     6.0 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :             1228800 Bytes/sec.
+   Speed :              70.312 MegaBytes/min.
+   Ended : Sunday, July 14, 2013 6:04:40 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 6:04:40 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\
+
+    Files : *.cshtml
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Account\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Category\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Home\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Shared\
+	  *EXTRA File 		      55	_ViewStart.cshtml
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\Person\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         4
+   Files :         1         0         1         0         0         1
+   Bytes :     5.4 k         0     5.4 k         0         0        55
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 6:04:40 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 6:04:41 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Scripts\Modules\
+
+    Files : *.js
+	    
+Exc Files : json2.js
+	    json2.min.js
+	    r.js
+	    require.js
+	    _references.js
+	    jquery*.js
+	    knockout*.js
+	    modernizr*.js
+	    ko*.js
+	    infuser*.js
+	    TrafficCop*.js
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  16	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\ViewModels\
+	  *EXTRA File 		    1459	Category.js
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         0
+   Files :        17         0        17         0         0         1
+   Bytes :    1.51 m         0    1.51 m         0         0     1.4 k
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 6:04:41 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 6:05:03 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\bin\
+
+    Files : Application.Web.Module.Person.dll
+	    
+  Options : /TEE /DCOPY:DA /COPY:DAT /XO /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+	    Newer     		    6144	Application.Web.Module.Person.dll  0%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         0         0         0         0
+   Files :         1         1         0         0         0         0
+   Bytes :     6.0 k     6.0 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :             1228800 Bytes/sec.
+   Speed :              70.312 MegaBytes/min.
+   Ended : Sunday, July 14, 2013 6:05:03 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 6:05:03 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\
+
+    Files : *.cshtml
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Account\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Category\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Home\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Shared\
+	  *EXTRA File 		      55	_ViewStart.cshtml
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\Person\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         4
+   Files :         1         0         1         0         0         1
+   Bytes :     5.4 k         0     5.4 k         0         0        55
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 6:05:03 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 6:05:03 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Scripts\Modules\
+
+    Files : *.js
+	    
+Exc Files : json2.js
+	    json2.min.js
+	    r.js
+	    require.js
+	    _references.js
+	    jquery*.js
+	    knockout*.js
+	    modernizr*.js
+	    ko*.js
+	    infuser*.js
+	    TrafficCop*.js
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  16	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\ViewModels\
+	  *EXTRA File 		    1459	Category.js
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         0
+   Files :        17         0        17         0         0         1
+   Bytes :    1.51 m         0    1.51 m         0         0     1.4 k
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 6:05:03 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 6:13:46 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\bin\
+
+    Files : Application.Web.Module.Person.dll
+	    
+  Options : /TEE /DCOPY:DA /COPY:DAT /XO /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+	    Newer     		    6144	Application.Web.Module.Person.dll  0%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         0         0         0         0
+   Files :         1         1         0         0         0         0
+   Bytes :     6.0 k     6.0 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :             2048000 Bytes/sec.
+   Speed :             117.187 MegaBytes/min.
+   Ended : Sunday, July 14, 2013 6:13:46 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 6:13:46 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\
+
+    Files : *.cshtml
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Account\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Category\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Home\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Shared\
+	  *EXTRA File 		      55	_ViewStart.cshtml
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\Person\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         4
+   Files :         1         0         1         0         0         1
+   Bytes :     5.4 k         0     5.4 k         0         0        55
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 6:13:46 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 6:13:46 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Scripts\Modules\
+
+    Files : *.js
+	    
+Exc Files : json2.js
+	    json2.min.js
+	    r.js
+	    require.js
+	    _references.js
+	    jquery*.js
+	    knockout*.js
+	    modernizr*.js
+	    ko*.js
+	    infuser*.js
+	    TrafficCop*.js
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  16	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\ViewModels\
+	  *EXTRA File 		    1459	Category.js
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         0
+   Files :        17         0        17         0         0         1
+   Bytes :    1.51 m         0    1.51 m         0         0     1.4 k
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 6:13:46 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 6:16:59 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\bin\
+
+    Files : Application.Web.Module.Person.dll
+	    
+  Options : /TEE /DCOPY:DA /COPY:DAT /XO /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+	    Newer     		    6144	Application.Web.Module.Person.dll  0%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         0         0         0         0
+   Files :         1         1         0         0         0         0
+   Bytes :     6.0 k     6.0 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :             1536000 Bytes/sec.
+   Speed :              87.890 MegaBytes/min.
+   Ended : Sunday, July 14, 2013 6:16:59 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 6:16:59 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\
+
+    Files : *.cshtml
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Account\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Category\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Home\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Shared\
+	  *EXTRA File 		      55	_ViewStart.cshtml
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\Person\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         4
+   Files :         1         0         1         0         0         1
+   Bytes :     5.4 k         0     5.4 k         0         0        55
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 6:16:59 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 6:16:59 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Scripts\Modules\
+
+    Files : *.js
+	    
+Exc Files : json2.js
+	    json2.min.js
+	    r.js
+	    require.js
+	    _references.js
+	    jquery*.js
+	    knockout*.js
+	    modernizr*.js
+	    ko*.js
+	    infuser*.js
+	    TrafficCop*.js
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  16	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\ViewModels\
+	  *EXTRA File 		    1551	Category.js
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         0
+   Files :        17         0        17         0         0         1
+   Bytes :    1.51 m         0    1.51 m         0         0     1.5 k
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 6:16:59 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 6:17:12 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\bin\
+
+    Files : Application.Web.Module.Person.dll
+	    
+  Options : /TEE /DCOPY:DA /COPY:DAT /XO /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+	    Newer     		    6144	Application.Web.Module.Person.dll  0%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         0         0         0         0
+   Files :         1         1         0         0         0         0
+   Bytes :     6.0 k     6.0 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :             2048000 Bytes/sec.
+   Speed :             117.187 MegaBytes/min.
+   Ended : Sunday, July 14, 2013 6:17:12 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 6:17:12 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\
+
+    Files : *.cshtml
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Account\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Category\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Home\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Shared\
+	  *EXTRA File 		      55	_ViewStart.cshtml
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\Person\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         4
+   Files :         1         0         1         0         0         1
+   Bytes :     5.4 k         0     5.4 k         0         0        55
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 6:17:12 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 6:17:12 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Scripts\Modules\
+
+    Files : *.js
+	    
+Exc Files : json2.js
+	    json2.min.js
+	    r.js
+	    require.js
+	    _references.js
+	    jquery*.js
+	    knockout*.js
+	    modernizr*.js
+	    ko*.js
+	    infuser*.js
+	    TrafficCop*.js
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  16	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\ViewModels\
+	  *EXTRA File 		    1551	Category.js
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         0
+   Files :        17         0        17         0         0         1
+   Bytes :    1.51 m         0    1.51 m         0         0     1.5 k
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 6:17:12 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 6:22:41 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\bin\
+
+    Files : Application.Web.Module.Person.dll
+	    
+  Options : /TEE /DCOPY:DA /COPY:DAT /XO /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\bin\
+	    Newer     		    6144	Application.Web.Module.Person.dll  0%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         1         0         0         0         0         0
+   Files :         1         1         0         0         0         0
+   Bytes :     6.0 k     6.0 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :              877714 Bytes/sec.
+   Speed :              50.223 MegaBytes/min.
+   Ended : Sunday, July 14, 2013 6:22:41 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 6:22:41 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\
+
+    Files : *.cshtml
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Account\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Category\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Home\
+	*EXTRA Dir        -1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Views\Shared\
+	  *EXTRA File 		      55	_ViewStart.cshtml
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Views\Person\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         4
+   Files :         1         0         1         0         0         1
+   Bytes :     5.4 k         0     5.4 k         0         0        55
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 6:22:41 PM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Sunday, July 14, 2013 6:22:41 PM
+   Source : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+     Dest : D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web\Scripts\Modules\
+
+    Files : *.js
+	    
+Exc Files : json2.js
+	    json2.min.js
+	    r.js
+	    require.js
+	    _references.js
+	    jquery*.js
+	    knockout*.js
+	    modernizr*.js
+	    ko*.js
+	    infuser*.js
+	    TrafficCop*.js
+	    
+  Options : /TEE /S /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  16	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\
+	                   1	D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Web.Module.Person\Scripts\ViewModels\
+	  *EXTRA File 		    1551	Category.js
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         0         0         0         0
+   Files :        17         0        17         0         0         1
+   Bytes :    1.51 m         0    1.51 m         0         0     1.5 k
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Sunday, July 14, 2013 6:22:41 PM
+

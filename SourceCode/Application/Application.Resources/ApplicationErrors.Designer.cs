@@ -79,6 +79,15 @@ namespace Application.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Can not delete non existing Category.
+        /// </summary>
+        public static string warning_CannotRemoveNonExistingCategory {
+            get {
+                return ResourceManager.GetString("warning_CannotRemoveNonExistingCategory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Can not delete non existing Phone.
         /// </summary>
         public static string warning_CannotRemoveNonExistingPhone {
