@@ -1,16 +1,17 @@
-﻿using Application.Domain.ProfileModule.AddressAggregate;
-using Application.Domain.ProfileModule.PhoneAggregate;
-using Application.Domain.ProfileModule.ProfileAddressAggregate;
-using Application.Domain.ProfileModule.ProfileAggregate;
-using Application.Domain.ProfileModule.ProfilePhoneAggregate;
+﻿using Application.Domain.ContactModule.AddressAggregate;
+using Application.Domain.ContactModule.PhoneAggregate;
+using Application.Domain.ContactModule.ProfileAddressAggregate;
+using Application.Domain.ContactModule.ProfileAggregate;
+using Application.Domain.ContactModule.ProfilePhoneAggregate;
 using Application.DAL.Contract;
-using Application.DAL.EntityConfiguration;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
 using Application.Common;
+using Application.DAL.EntityConfiguration.ContactModule;
+using Application.DAL.EntityConfiguration.ProductModule;
 
 namespace Application.DAL
 {
@@ -211,6 +212,7 @@ namespace Application.DAL
             modelBuilder.Configurations.Add(new ProfileAddressConfiguration());
             modelBuilder.Configurations.Add(new ProfileConfiguration());
             modelBuilder.Configurations.Add(new ProfilePhoneConfiguration());
+            modelBuilder.Configurations.Add(new CategoryConfiguration());
         }
         #endregion
 

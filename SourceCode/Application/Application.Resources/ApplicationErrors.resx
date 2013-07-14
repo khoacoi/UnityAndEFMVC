@@ -129,6 +129,9 @@
   <data name="warning_CannotRemoveNonExistingProfile" xml:space="preserve">
     <value>Can not delete non existing Profile</value>
   </data>
+  <data name="warning_InvalidArgumentForFindCategory" xml:space="preserve">
+    <value>Invalid arguments when call to CategoryManager's FindCategories</value>
+  </data>
   <data name="warning_InvalidArgumentForFindProfiles" xml:space="preserve">
     <value>Invalid arguments when call to ProfileManager's FindProfiles</value>
   </data>

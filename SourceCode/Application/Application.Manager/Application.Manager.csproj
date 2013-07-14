@@ -40,9 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contract\IContactManager.cs" />
-    <Compile Include="Conversion\Mapping.cs" />
-    <Compile Include="Implementation\ContactManager.cs" />
+    <Compile Include="Contract\ProductModule\ICategoryManager.cs" />
+    <Compile Include="Contract\ContactModule\IContactManager.cs" />
+    <Compile Include="Conversion\ContactModule\Mapping.cs" />
+    <Compile Include="Conversion\ProductModule\Mapping.cs" />
+    <Compile Include="Implementation\ContactModule\ContactManager.cs" />
+    <Compile Include="Implementation\ProductModule\CategoryManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

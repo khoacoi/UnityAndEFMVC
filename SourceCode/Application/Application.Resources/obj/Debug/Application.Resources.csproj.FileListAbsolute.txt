@@ -20,4 +20,3 @@ D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\obj\De
 D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.csproj.GenerateResource.Cache
 D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.dll
 D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.pdb
-D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.csprojResolveAssemblyReference.cache

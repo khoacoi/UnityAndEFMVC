@@ -1,4 +1,4 @@
-﻿using Application.Manager.Contract;
+﻿using Application.Manager.Contract.ContactModule;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;

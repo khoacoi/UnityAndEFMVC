@@ -6,4 +6,3 @@ D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Common\bin\Debug
 D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Common\bin\Debug\Application.Common.pdb
 D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Common\obj\Debug\Application.Common.dll
 D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Common\obj\Debug\Application.Common.pdb
-D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Common\obj\Debug\Application.Common.csprojResolveAssemblyReference.cache

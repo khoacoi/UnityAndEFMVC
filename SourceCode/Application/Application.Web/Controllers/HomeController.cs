@@ -1,4 +1,5 @@
 ﻿using Application.Manager.Contract;
+using Application.Manager.Contract.ContactModule;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,6 @@ namespace Application.Web.Controllers
         //    _contactManager = contactManager;
         //}
 
-        [Microsoft.Practices.Unity.Dependency]
         public IContactManager ContactManager { get; set; }
 
         public ActionResult Index()

@@ -289,8 +289,6 @@
     <Content Include="Scripts\plugins\jquery\jquery.validate.min.js" />
     <Content Include="Scripts\plugins\jquery\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\plugins\jquery\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\plugins\knockout\knockout-2.2.1.debug.js" />
-    <Content Include="Scripts\plugins\knockout\knockout-2.2.1.js" />
     <Content Include="Scripts\plugins\angular\angular-bootstrap-prettify.js" />
     <Content Include="Scripts\plugins\angular\angular-bootstrap-prettify.min.js" />
     <Content Include="Scripts\plugins\angular\angular-bootstrap.js" />

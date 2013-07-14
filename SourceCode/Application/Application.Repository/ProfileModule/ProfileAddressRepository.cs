@@ -1,5 +1,6 @@
-﻿using Application.Domain.ProfileModule.ProfileAddressAggregate;
+﻿using Application.Domain.ContactModule.ProfileAddressAggregate;
 using Application.DAL;
+using Application.DAL.Contract;
 
 namespace Application.Repository.ProfileModule
 {
@@ -11,7 +12,8 @@ namespace Application.Repository.ProfileModule
         /// Create a new instance
         /// </summary>
         /// <param name="unitOfWork">Associated unit of work</param>
-        public ProfileAddressRepository(UnitOfWork unitOfWork): base(unitOfWork)
+        public ProfileAddressRepository(IQueryableUnitOfWork unitOfWork)
+            : base(unitOfWork)
         {
         }
 

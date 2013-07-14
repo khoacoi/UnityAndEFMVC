@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ProductModule\CategoryRepository.cs" />
     <Compile Include="ProfileModule\AddressRepository.cs" />
     <Compile Include="ProfileModule\AddressTypeRepository.cs" />
     <Compile Include="ProfileModule\PhoneRepository.cs" />
