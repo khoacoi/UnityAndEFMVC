@@ -1,5 +1,5 @@
 ﻿var app = angular.module('CategoryApp', []);
-var url = 'api/categorycontent/';
+var url = '/api/categoryManager/';
 
 app.factory('categoryFactory', function ($http) {
     return {
@@ -37,13 +37,13 @@ app.controller('ManageCategoryCtrl', function ($scope, categoryFactory, notifica
         categoryFactory.deleteCategory(category);
     };
 
-
-    categoryFactory.getCategories().success(getCategoriesSuccessCallBack).error(errorCallBack)
-
-    var getCategoriesSuccessCallBack = function (data, status) {
+    var getCategoriesSuccessCallBack = function (data, status, headers, config) {
         $scope.categories = data;
     };
-    var errorCallback = function (data, status, headers, config) {
+
+    var errorCallBack = function (data, status, headers, config) {
         notificationFactory.error(data.ExceptionMessage);
     };
+
+    categoryFactory.getCategories().success(getCategoriesSuccessCallBack).error(errorCallBack);
 });

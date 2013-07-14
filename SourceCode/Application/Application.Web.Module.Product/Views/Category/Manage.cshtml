@@ -3,7 +3,7 @@
 }
 
 <h2>Manage</h2>
-<div ng-app="CategoryApp" ng-controller="ManageCategoryCtrl">
+<div ng-app="CategoryApp" ng-controller="ManageCategoryCtrl" ng-cloak>
     <div style="width: 500px;">
         <table>
             <tr>
@@ -12,11 +12,11 @@
                 <th>Name</th>
                 <th>Order</th>
             </tr>
-            <tr ng-repeat="category in categories | orderBy : 'Code':false">
-                <td>{{CategoryID}}</td>
-                <td>{{CategoryCode}}</td>
-                <td>{{CategoryName}}</td>
-                <td>{{Order}}</td>
+            <tr ng-repeat="category in categories | orderBy: 'Order': false">
+                <td>{{category.CategoryID}}</td>
+                <td>{{category.CategoryCode}}</td>
+                <td>{{category.CategoryName}}</td>
+                <td>{{category.Order}}</td>
             </tr>
         </table>
     </div>

@@ -20,7 +20,7 @@ namespace Application.Web.Controllers
 
         public ActionResult Index()
         {
-            ContactManager.FindProfiles(0, 10);
+            //ContactManager.FindProfiles(0, 10);
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
 
             return View();

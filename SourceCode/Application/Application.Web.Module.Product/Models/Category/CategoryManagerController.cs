@@ -9,21 +9,20 @@ using System.Web.Http;
 
 namespace Application.Web.Module.Product.Models.Category
 {
-    public class CategoryContentController : ApiController
+    public class CategoryManagerController : ApiController
     {
         #region Properties
         ICategoryManager _categoryManager;
         #endregion
 
         #region Constructors
-        public CategoryContentController() { }
-        public CategoryContentController(ICategoryManager categoryManager)
+        public CategoryManagerController(ICategoryManager categoryManager)
         {
             _categoryManager = categoryManager;
         }
         #endregion
 
-        // GET api/categorycontent
+        // GET api/categorymanagerment
         public IEnumerable<CategoryDTO> GetCategories()
         {
             //return new string[] { "value1", "value2" };
@@ -31,29 +30,29 @@ namespace Application.Web.Module.Product.Models.Category
             return categories;
         }
 
-        //// GET api/categorycontent
+        //// GET api/categorymanagerment
         //public IEnumerable<string> Get()
         //{
         //    return new string[] { "value1", "value2" };
         //}
 
-        // GET api/categorycontent/5
+        // GET api/categorymanagerment/5
         public string Get(int id)
         {
             return "value";
         }
 
-        // POST api/categorycontent
+        // POST api/categorymanagerment
         public void Post([FromBody]string value)
         {
         }
 
-        // PUT api/categorycontent/5
+        // PUT api/categorymanagerment/5
         public void Put(int id, [FromBody]string value)
         {
         }
 
-        // DELETE api/categorycontent/5
+        // DELETE api/categorymanagerment/5
         public void Delete(int id)
         {
         }
