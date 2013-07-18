@@ -70,6 +70,9 @@
     <Compile Include="ContactModule\ProfilePhoneAggregate\IProfilePhoneRepository.cs" />
     <Compile Include="ContactModule\ProfilePhoneAggregate\ProfilePhone.cs" />
     <Compile Include="ContactModule\ProfilePhoneAggregate\ProfilePhoneFactory.cs" />
+    <Compile Include="Product\ProductAggregate\CategoryProductLink.cs" />
+    <Compile Include="Product\ProductAggregate\IProductRepository.cs" />
+    <Compile Include="Product\ProductAggregate\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\Messages.Designer.cs">
       <AutoGen>True</AutoGen>

@@ -1,51 +1,53 @@
-﻿var app = angular.module('CategoryApp', []);
-var url = '/api/categoryManager/';
+﻿function CategoryViewModel(options) {
+    var viewModel = options.viewModel;
 
-app.factory('categoryFactory', function ($http) {
-    return {
-        getCategories: function () {
-            return $http.get(url);
-        },
-        addCategory: function (category) {
-            return $http.post(url, category);
-        },
-        deleteCategory: function (category) {
-            return $http.delete(url + category.CategoryID);
-        },
-        updateCategory: function (category) {
-            return $http.put(url + category.CategoryID, category);
+    var app = angular.module('CategoryApp', []);
+    var url = '/api/categoryManager/';
+
+    app.factory('categoryFactory', function ($http) {
+        return {
+            getCategory: function () {
+                return $http.get(url);
+            },
+            getCategoryByID: function(id){
+                return $http.get(url + id);
+            },
+            addCategory: function (category) {
+                return $http.post(url, category);
+            },
+            ////deletePerson: function (person) {
+            ////    return $http.delete(url + person.Id);
+            ////},
+            //deletePerson: function (person) {
+            //    return $http.post('person/DeletePerson', person);
+            //},
+            updateCategory: function (category) {
+                return $http.put(url + category.ID, category);
+            }
+        };
+    });
+
+
+    app.controller('UpdateCategoryCtrl', function ($scope, categoryFactory) {
+        //$scope.category = {};
+        
+        $scope.saveCategory = function (categoryViewModel) {
+            if (categoryViewModel.Id) {
+                categoryFactory.updateCategory(categoryViewModel).success(function (data, status, headers, config) {
+                    window.location.href = '/Category/Manage';
+                });
+            }
+            else {
+                categoryFactory.addCategory(categoryViewModel).success(function (data, status, headers, config) {
+                    window.location.href = '/Category/Manage';
+                });;
+            }
         }
-    };
-});
 
-app.factory('notificationFactory', function () {
-
-    return {
-        success: function () {
-            toastr.success("Success");
-        },
-        error: function (text) {
-            toastr.error(text, "Error!");
+        if(viewModel.Id)
+        {
+            categoryFactory.getCategoryByID(viewModel.Id).success(function (data, status, headers, config)
+            { $scope.category = data });
         }
-    };
-});
-
-app.controller('ManageCategoryCtrl', function ($scope, categoryFactory, notificationFactory) {
-    $scope.categories = [];
-
-    $scope.deleteCategory = function (category) {
-        categoryFactory.deleteCategory(category).success(function (category, status, header, config) {
-            alert('deleted')
-        });
-    };
-
-    var getCategoriesSuccessCallBack = function (data, status, headers, config) {
-        $scope.categories = data;
-    };
-
-    var errorCallBack = function (data, status, headers, config) {
-        notificationFactory.error(data.ExceptionMessage);
-    };
-
-    categoryFactory.getCategories().success(getCategoriesSuccessCallBack).error(errorCallBack);
-});
+    });
+}

@@ -13,6 +13,7 @@ namespace Application.DTO.ProductModule
         public string CategoryName { get; set; }
         public int Order { get; set; }
         public int CategoryLevel { get; set; }
+        public string CategoryImage { get; set; }
         //public int? CategoryParent { get; set; }
     }
 }

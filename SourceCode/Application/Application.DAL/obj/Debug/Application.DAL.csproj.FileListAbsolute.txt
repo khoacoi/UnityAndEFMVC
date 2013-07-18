@@ -26,3 +26,17 @@ D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.DAL\bin\Debug\En
 D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.DAL\obj\Debug\Application.DAL.csprojResolveAssemblyReference.cache
 D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.DAL\obj\Debug\Application.DAL.dll
 D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.DAL\obj\Debug\Application.DAL.pdb
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.DAL\bin\Debug\Application.DAL.dll.config
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.DAL\bin\Debug\Application.DAL.dll
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.DAL\bin\Debug\Application.DAL.pdb
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.DAL\bin\Debug\Application.Common.dll
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.DAL\bin\Debug\Application.Domain.dll
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.DAL\bin\Debug\Application.Resources.dll
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.DAL\bin\Debug\EntityFramework.dll
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.DAL\bin\Debug\Application.Common.pdb
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.DAL\bin\Debug\Application.Domain.pdb
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.DAL\bin\Debug\Application.Resources.pdb
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.DAL\bin\Debug\EntityFramework.xml
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.DAL\obj\Debug\Application.DAL.csprojResolveAssemblyReference.cache
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.DAL\obj\Debug\Application.DAL.dll
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.DAL\obj\Debug\Application.DAL.pdb

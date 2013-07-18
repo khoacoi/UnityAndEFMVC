@@ -1,4 +1,5 @@
 ﻿using Application.Common;
+using Application.Domain.Product.ProductAggregate;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -12,12 +13,14 @@ namespace Application.Domain.Product.CategoryAggregate
     {
         #region Properties
         [Key]
-        public int CategoryID { get; set; }
+        public int ID { get; set; }
         public string CategoryCode { get; set; }
         public string CategoryName { get; set; }
         public int Order { get; set; }
+        public string CategoryImage { get; set; }
         public int CategoryLevel { get; set; }
         public virtual Category ParentCategory { get; set; }
+        public virtual ICollection<CategoryProductLink> CategoryProductLinks { get; set; }
         #endregion Properties
 
         #region Public Functions

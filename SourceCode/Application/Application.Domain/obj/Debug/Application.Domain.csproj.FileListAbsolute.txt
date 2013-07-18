@@ -40,3 +40,12 @@ D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Domain\obj\Debug
 D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Domain\obj\Debug\Application.Domain.csproj.GenerateResource.Cache
 D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Domain\obj\Debug\Application.Domain.dll
 D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Domain\obj\Debug\Application.Domain.pdb
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.Domain\bin\Debug\Application.Domain.dll
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.Domain\bin\Debug\Application.Domain.pdb
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.Domain\bin\Debug\Application.Common.dll
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.Domain\bin\Debug\Application.Common.pdb
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.Domain\obj\Debug\Application.Domain.csprojResolveAssemblyReference.cache
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.Domain\obj\Debug\Application.Domain.Resources.Messages.resources
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.Domain\obj\Debug\Application.Domain.csproj.GenerateResource.Cache
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.Domain\obj\Debug\Application.Domain.dll
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.Domain\obj\Debug\Application.Domain.pdb

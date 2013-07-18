@@ -7,7 +7,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace Application.Web.Module.Product.Models.Category
+namespace Application.Web.Module.Product.APIControllers.Category
 {
     public class CategoryManagerController : ApiController
     {
@@ -30,28 +30,39 @@ namespace Application.Web.Module.Product.Models.Category
             return categories;
         }
 
-        //// GET api/categorymanagerment
-        //public IEnumerable<string> Get()
-        //{
-        //    return new string[] { "value1", "value2" };
-        //}
-
         // GET api/categorymanagerment/5
         public CategoryDTO GetCategory(int id)
         {
-            return new CategoryDTO();
+            return _categoryManager.FindCategoryByID(id);
         }
 
-        // POST api/categorymanagerment
-        public HttpResponseMessage Post(CategoryDTO category)
+        //// POST api/categorymanagerment
+        public HttpResponseMessage Post(CategoryDTO categoryDTO)
         {
-            return Request.CreateErrorResponse(HttpStatusCode.NotAcceptable, "Haven't been implemented yet");
+            try
+            {
+                _categoryManager.SaveCategoryInformation(categoryDTO);
+                return Request.CreateResponse(HttpStatusCode.OK, categoryDTO);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.NotAcceptable, ex.Message);
+            }
         }
 
         // PUT api/categorymanagerment/5
-        public HttpResponseMessage Put(int id, CategoryDTO category)
+        public HttpResponseMessage Put(int id, CategoryDTO categoryDTO)
         {
-            return Request.CreateErrorResponse(HttpStatusCode.NotAcceptable, "Haven't been implemented yet");
+            try
+            {
+                //var categoryDTO = Application.Web.Module.Product.Models.Category.CategoryModelUtis.ConvertCategoryModelToCategoryDTO(category);
+                _categoryManager.UpdateCategoryInformation(id, categoryDTO);
+                return Request.CreateResponse(HttpStatusCode.OK, categoryDTO);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.NotAcceptable, ex.Message);
+            }
         }
 
         // DELETE api/categorymanagerment/5

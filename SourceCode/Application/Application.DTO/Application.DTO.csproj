@@ -41,6 +41,8 @@
   <ItemGroup>
     <Compile Include="PersonModule\PersonDTO.cs" />
     <Compile Include="ProductModule\CategoryDTO.cs" />
+    <Compile Include="ProductModule\CategoryProductLinkDTO.cs" />
+    <Compile Include="ProductModule\ProductDTO.cs" />
     <Compile Include="ProfileModule\AddressDTO.cs" />
     <Compile Include="ProfileModule\AddressTypeDTO.cs" />
     <Compile Include="ProfileModule\ContactForm.cs" />

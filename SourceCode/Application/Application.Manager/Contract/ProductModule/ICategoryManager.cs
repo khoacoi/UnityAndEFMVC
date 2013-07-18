@@ -29,5 +29,18 @@ namespace Application.Manager.Contract.ProductModule
         /// </summary>
         /// <param name="id"></param>
         void DeleteCategory(int id);
+
+        /// <summary>
+        /// Add New Category 
+        /// </summary>
+        /// <param name="categoryDTO"></param>
+        void SaveCategoryInformation(CategoryDTO categoryDTO);
+
+        /// <summary>
+        /// Update existing Category
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="categoryDTO"></param>
+        void UpdateCategoryInformation(int id, CategoryDTO categoryDTO);
     }
 }

@@ -205,14 +205,16 @@ namespace Application.DAL
             modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
 
             //Add entity configurations in a structured way using 'TypeConfiguration’ classes
-            modelBuilder.Configurations.Add(new AddressConfiguration());
-            modelBuilder.Configurations.Add(new AddressTypeConfiguration());
-            modelBuilder.Configurations.Add(new PhoneConfiguration());
-            modelBuilder.Configurations.Add(new PhoneTypeConfiguration());
-            modelBuilder.Configurations.Add(new ProfileAddressConfiguration());
-            modelBuilder.Configurations.Add(new ProfileConfiguration());
-            modelBuilder.Configurations.Add(new ProfilePhoneConfiguration());
+            //modelBuilder.Configurations.Add(new AddressConfiguration());
+            //modelBuilder.Configurations.Add(new AddressTypeConfiguration());
+            //modelBuilder.Configurations.Add(new PhoneConfiguration());
+            //modelBuilder.Configurations.Add(new PhoneTypeConfiguration());
+            //modelBuilder.Configurations.Add(new ProfileAddressConfiguration());
+            //modelBuilder.Configurations.Add(new ProfileConfiguration());
+            //modelBuilder.Configurations.Add(new ProfilePhoneConfiguration());
             modelBuilder.Configurations.Add(new CategoryConfiguration());
+            modelBuilder.Configurations.Add(new ProductConfiguration());
+            modelBuilder.Configurations.Add(new CategoryProductLinkConfiguration());
         }
         #endregion
 

@@ -42,10 +42,12 @@
   <ItemGroup>
     <Compile Include="Contract\ProductModule\ICategoryManager.cs" />
     <Compile Include="Contract\ContactModule\IContactManager.cs" />
+    <Compile Include="Contract\ProductModule\IProductManager.cs" />
     <Compile Include="Conversion\ContactModule\Mapping.cs" />
     <Compile Include="Conversion\ProductModule\Mapping.cs" />
     <Compile Include="Implementation\ContactModule\ContactManager.cs" />
     <Compile Include="Implementation\ProductModule\CategoryManager.cs" />
+    <Compile Include="Implementation\ProductModule\ProductManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

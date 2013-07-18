@@ -1,0 +1,45 @@
+﻿@model Application.Web.Module.Product.Models.Product.ProductModel
+@{
+    if(this.Model.Id != null){
+        ViewBag.Title = "Update Product";
+    }
+    else{
+        ViewBag.Title = "Create New Product";
+    }
+
+    var data = Newtonsoft.Json.JsonConvert.SerializeObject(Model);
+}
+
+<h2>ViewBag.Title</h2>
+
+<div ng-app="ProductApp" ng-controller="UpdateProductCtrl" ng-cloak>
+    <div>
+        <label>@LocalizerFactory.CreateLocalizer().GetString("Code", typeof(ApplicationText))</label>
+        <input type="text" ng-model="category.CategoryCode"/>
+
+        <label>@LocalizerFactory.CreateLocalizer().GetString("Name", typeof(ApplicationText))</label>
+        <input type="text" ng-model="category.CategoryName"/>
+
+        <label>@LocalizerFactory.CreateLocalizer().GetString("Order", typeof(ApplicationText))</label>
+        <input type="text" ng-model="category.Order"/>
+
+        <label>@LocalizerFactory.CreateLocalizer().GetString("CategoryImage", typeof(ApplicationText))</label>
+        <input type="text" ng-model="category.CategoryImage"/>
+
+        <p>
+            <button ng-click="saveCategory(category)">Save</button>
+        </p>
+        
+    </div>
+</div>
+
+
+@section scripts{
+    <script src="@Url.Content("~/Scripts/Modules/ViewModels/Product.js")" type="text/javascript"></script>
+    <script type="text/javascript">
+        var options = {
+            viewModel: eval(@Html.Raw(data))
+        };
+        ProductViewModel(options);
+    </script>
+}

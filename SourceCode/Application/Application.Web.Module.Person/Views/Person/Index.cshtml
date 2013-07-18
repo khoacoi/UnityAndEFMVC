@@ -113,6 +113,7 @@
     <script type="text/javascript">
         var options = {
             viewModel: eval(@Html.Raw(data))
+            @*viewModel: angular.toJson(@Html.Raw(data))*@
         };
         PersonViewModel(options);
     </script>

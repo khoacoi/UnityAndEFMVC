@@ -12,11 +12,12 @@ namespace Application.DAL.EntityConfiguration.ProductModule
     {
         public CategoryConfiguration()
         {
-            this.HasKey(a => a.CategoryID);
+            this.HasKey(a => a.ID);
             this.Property(a => a.CategoryCode).HasMaxLength(100).IsRequired();
-            this.Property(a => a.CategoryName).HasMaxLength(200).IsRequired();
+            this.Property(a => a.CategoryName).HasMaxLength(200).IsRequired().IsUnicode();
             this.Property(c => c.Order).IsRequired();
             this.Property(a => a.CategoryLevel).IsRequired();
+            this.Property(c => c.CategoryImage).IsOptional();
             this.HasOptional(c => c.ParentCategory);
             //configure table map
             this.ToTable("Category");

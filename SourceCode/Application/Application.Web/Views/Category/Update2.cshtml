@@ -1,0 +1,52 @@
+﻿@model Application.Web.Module.Product.Models.Category.CategoryModel
+@{
+    if(this.Model.ID != null){
+        ViewBag.Title = "Update Category";
+    }
+    else{
+        ViewBag.Title = "Create New Category";
+    }
+
+    var data = Newtonsoft.Json.JsonConvert.SerializeObject(Model);
+}
+
+<h2>@(ViewBag.Title)</h2>
+
+<div ng-app="CategoryApp" ng-controller="UpdateCategoryCtrl" ng-cloak>
+    <div>
+        @Html.LabelFor(x => x.Code)
+        <input type="text" ng-model="category.CategoryCode"/>
+        @*@Html.TextBoxFor(x => x.Code, new { data_ng_model ="category.Code"})*@
+        @Html.ValidationMessageFor(x=> x.Code)
+
+
+        @Html.LabelFor(x => x.Name)
+        @Html.TextBoxFor(x => x.Name, new { data_ng_model ="category.CategoryName"})
+        @Html.ValidationMessageFor(x => x.Name)
+
+
+        @Html.LabelFor(x => x.Order)
+        @Html.TextBoxFor(x => x.Order, new { data_ng_model ="category.Order"})
+        @Html.ValidationMessageFor(x => x.Order)
+
+
+        @Html.LabelFor(x => x.CategoryImage)
+        @Html.TextBoxFor(x => x.CategoryImage, new { data_ng_model ="category.CategoryImage"})
+        @Html.ValidationMessageFor(x => x.CategoryImage)
+
+        <p>
+            <button ng-click="saveCategory(category)">Save</button>
+        </p>
+        
+    </div>
+</div>
+
+@section scripts{
+    <script src="@Url.Content("~/Scripts/Modules/ViewModels/Category2.js")" type="text/javascript"></script>
+    <script type="text/javascript">
+        var options = {
+            viewModel: eval(@Html.Raw(data))
+        };
+        CategoryViewModel(options);
+    </script>
+}

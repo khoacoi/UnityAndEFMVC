@@ -20,3 +20,11 @@ D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\obj\De
 D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.csproj.GenerateResource.Cache
 D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.dll
 D:\Work\GitHub\UnityAndEFMVC\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.pdb
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.Resources\bin\Debug\Application.Resources.dll
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.Resources\bin\Debug\Application.Resources.pdb
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.ApplicationErrors.resources
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.ApplicationText.resources
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.csproj.GenerateResource.Cache
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.dll
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.pdb
+D:\Working\MyWeb\GitHub\ShoppingCart\SourceCode\Application\Application.Resources\obj\Debug\Application.Resources.csprojResolveAssemblyReference.cache
